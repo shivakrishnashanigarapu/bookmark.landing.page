@@ -1,0 +1,400 @@
+.header-part-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+.nav-bar-container{
+    display: flex;
+    padding-left: 400px;
+}
+.nav-bar-container:hover{
+    cursor: pointer;
+}
+.headerbutton{
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+.headerbutton:hover{
+    border:2px solid hsl(0, 94%, 66%);
+    background-color: white;
+    color: hsl(0, 94%, 66%);;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+}
+.nav-links:hover{
+    color:hsl(0, 94%, 66%) ;
+
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.main-container1{
+    padding-top: 100px;
+}
+.main-containerbutton1{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 140px;
+    height: 30px;
+    font-weight: 500;
+}
+.main-containerbutton1:hover{
+    background-color: white;
+    border: 2px solid hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%);
+    cursor: pointer;
+}
+.main-containerbutton2{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+    width: 140px;
+    height: 30px;
+    font-weight: 500;
+}
+.main-containerbutton2:hover{
+    cursor: pointer;
+    border: 2px solid gray;
+    color: gray;
+
+}
+.features{
+    text-align: center;
+    padding-top: 100px;
+}
+.features1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 2px solid black;
+}
+.simple:hover{
+    color:hsl(0, 94%, 66%) ;
+    cursor: pointer;
+}
+.simple{
+    border-bottom: 3px solid hsl(0, 94%, 66%) ;
+}
+.speedy{
+    border-bottom: 1px solid black;
+}
+.speedy:hover{
+    color:hsl(0, 94%, 66%) ;
+    cursor: pointer;
+}
+.sharing{
+    border-bottom: 1px solid black;
+}
+.sharing:hover{
+    color:hsl(0, 94%, 66%) ;
+    cursor: pointer;
+}
+.midpart{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.midpart1{
+    padding-top: 80px;
+}
+.midpartbutton{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    width: 100px;
+    height: 30px;
+
+}
+.backround1{
+    height: 400px;
+    width: 550px;
+    background-color:hsl(231, 69%, 60%) ;
+    border-bottom-left-radius:10rem ;
+    position: absolute;
+    right: 0px;
+    bottom: 80px;
+    z-index: -1;
+}
+.backround2{
+    height: 350px;
+    width: 600px;
+    background-color:hsl(231, 69%, 60%) ;
+    border-bottom-right-radius:10rem ;
+    position: absolute;
+    left: 0px;
+    top:1150px;
+    z-index: -1;
+
+}
+.Download{
+    text-align: center;
+    padding-top: 200px;
+}
+.frequently{
+    text-align: center;
+    padding-top: 100px;
+}
+.icons{
+     border: 1px solid white;
+    height: 500px;
+    width: 1000px;
+    /* align-content: center; */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.chrome{
+    /* border: 1px solid black; */
+    background-color: white;
+    box-shadow: 2px 2px 2px whitesmoke;
+    height: 270px;
+    width: 220px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 75px;
+    border-radius: 10px;
+    /* padding: 10px;
+    */
+}
+.icons  button{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    width: 180px;
+    height: 30px;
+}
+.icons button:hover{
+    background-color: white;
+    border: 2px solid hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%);
+    cursor: pointer;
+    width: 200px;
+}
+.firefox{
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px whitesmoke;
+    height: 270px;
+    width: 220px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.opera{
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px whitesmoke;
+    height: 270px;
+    width: 220px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 75px;
+    border-radius: 10px;
+}
+.questions{
+    height: 200px;
+    width: 500px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 70px;
+
+}
+.question1{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+}
+.question1:hover{
+    cursor: pointer;
+    color:hsl(0, 94%, 66%) ;
+}
+.question2{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* border-top:1px solid gray; */
+    border-bottom:1px solid gray;
+}
+.question2:hover{
+    cursor: pointer;
+    color:hsl(0, 94%, 66%) ;
+}
+.question3{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* border-top:1px solid gray; */
+    border-bottom:1px solid gray;
+}
+.question3:hover{
+    cursor: pointer;
+    color:hsl(0, 94%, 66%) ;
+}
+.question4{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* border-top:1px solid gray; */
+    border-bottom:1px solid gray;
+}
+.question4:hover{
+    cursor: pointer;
+    color:hsl(0, 94%, 66%) ;
+}
+.questions-button{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+
+}
+.questions-buttondiv{
+    text-align: center;
+    margin: auto;
+
+}
+.stay-up-to-date{
+    text-align: center;
+    background-color:  hsl(231, 69%, 60%);
+    padding: 50px;
+    color: white;
+}
+#email{
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    margin: 20px;
+
+}
+#email:hover{
+    border: 2px solid hsl(0, 94%, 66%) ;
+    height: 40px;
+    margin: 20px;
+}
+#btn2{
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    margin: 20px;
+}
+#btn2:hover{
+    border:2px solid hsl(0, 94%, 66%);
+    background-color: white;
+    color: hsl(0, 94%, 66%);
+}
+footer{
+    color: white;
+    background-color:  hsl(229, 31%, 21%);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer1:hover{
+    color:hsl(0, 94%, 66%) ;
+    cursor: pointer;
+}
+.footer2:hover{
+    color:hsl(0, 94%, 66%) ;
+    cursor: pointer;
+}
+.footer3:hover{
+    color:hsl(0, 94%, 66%) ;
+    cursor: pointer;
+}
+.facebooklogo:hover{
+    background-color:hsl(0, 94%, 66%) ;
+    cursor: pointer;
+
+}
+.twitterlogo:hover{
+    background-color:hsl(0, 94%, 66%) ;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width:200px) and (max-width:480px){
+    .header-part-container{
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .nav-bar-container{
+        display: flex;
+        /* flex-direction: column; */
+        padding-left: 400px;
+    }
+    .nav-container{
+        display: none;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+    .main-container1{
+        width: 200px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .backround1{
+       background-color: white;
+    }
+    .backround2{
+        background-color: white;
+     }
+     .features{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     }
+     .midpart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+     }
+     body{
+        border: 2pc solid black;
+     }
+ 
+}
